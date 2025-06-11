@@ -97,11 +97,6 @@ namespace FFImageLoading.DataResolvers
 						}
 						scale--;
 					}
-
-					if (!isSvgFile)
-					{
-						parameters.Scale = scale;
-					}
 				}
 
 				token.ThrowIfCancellationRequested();
